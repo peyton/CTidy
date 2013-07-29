@@ -146,6 +146,9 @@
     
     int theResultCode = 0;
     
+    // We're only interested in the body
+    tidyOptSetBool(theTidyDocument, TidyBodyOnly, YES);
+    
     // Set input format if input is XML (xhtml & html are the tidy 'default')
     if (inInputFormat == CTidyFormatXML)
 	{

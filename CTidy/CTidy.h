@@ -31,8 +31,8 @@
 
 #import <Foundation/Foundation.h>
 
-#include <tidy/tidy.h>
-#include <tidy/buffio.h>
+#include <tidy-html5/tidy/tidy.h>
+#include <tidy-html5/tidy/buffio.h>
 
 typedef enum {
 	CTidyFormatHTML,
